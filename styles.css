@@ -252,6 +252,12 @@ COVER IMAGE
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+@media (max-width: 800px) {
+  .about img {
+    display: none;
+  }
+}
+
 .socials-group {
   background-color: white;
   padding-top: 1.5%;
